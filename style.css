@@ -1,0 +1,172 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Poppins', sans-serif;
+}
+body{
+  background-color: #28282B;
+  color: white;
+}
+.image{
+  background: none;
+  width: 200px;
+  height: 200px;
+}
+.logo{
+  max-width: 100%;
+  max-height: 200%;
+  padding-top: 200px;
+}
+.input_field{
+  
+flex-direction: column;
+}
+.first{
+  border: 40px;
+  padding: 150px 0 50px 0;
+  font-size: larger;
+  color: white;
+}
+.input{
+height: 45px;
+width: 500px;
+border-radius: 30px;
+padding: 0 0 0 45px;
+background: rgba(255, 255, 255, 0.1);
+}
+i{
+  position: relative;
+  right: 530px;
+  
+}
+.mail{
+  padding-bottom: 30px;
+}
+.login{
+  padding-top: 20px;
+
+}
+.submit{
+  height: 40px;
+  width: 250px;
+  border: none;
+  border-radius: 30px;
+  font-size: large;
+  cursor: pointer;
+  transition: 3s;
+}.remember{
+  padding-right: 100px;
+  padding-top: 15px;
+}
+.rememberr{
+  cursor: pointer;
+}
+.forgot{
+  padding-right: 99px;
+  padding-top: 15px;
+}
+.forgott{
+  color: aliceblue;
+  cursor: pointer;
+}
+.new_here{
+padding-top: 20px;
+font-size: large;
+}
+.sign{
+  height: 30px;
+  width: 150px;
+  border: none;
+  border-radius: 30px;
+  font-size: large;
+  cursor: pointer;
+  transition: 3s;
+}
+.navi{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding-top: 50px;
+padding-left: 800px;
+display: flex;
+align-items: center;
+z-index: 99;
+
+}
+.Projects{
+  font-size: larger;
+  color: white;
+  padding-left: 50px;
+  text-decoration: none;
+}
+.profile{
+  font-size: larger;
+  color: white;
+  padding-left: 50px;
+  text-decoration: none;
+}
+.services{
+  font-size: larger;
+  color: white;
+  padding-left: 50px;
+  text-decoration: none;
+}
+.rescuers{
+  font-size: larger;
+  color: white;
+  padding-left: 50px;
+  text-decoration: none;
+}
+.contact{
+  font-size: larger;
+  color: white;
+  padding-left: 50px;
+  text-decoration: none;
+}
+.faq{
+  font-size: larger;
+  color: white;
+  padding-left: 50px;
+  text-decoration: none;
+}
+.logout{
+  font-size: larger;
+  color: white;
+  padding-left: 50px;
+  text-decoration: none;
+}
+.image2{
+  background: none;
+  width: 200px;
+  height: 200px;
+}
+.logo2{
+  max-width: 200%;
+  max-height: 200%;
+  padding-right: 200px;
+}
+.text{
+  font-size: x-large;
+  padding-top: 200px;
+}
+.media{
+  padding-top: 50px;
+}
+.video{
+  height: 50px;
+  width: 200px;
+  border-radius: 30px;
+  color: #28282B;
+  font-size: x-large;
+  cursor: pointer;
+}
+.audio{
+  height: 50px;
+  width: 200px;
+  border-radius: 30px;
+  color: #28282B;
+  font-size: x-large;
+  cursor: pointer;
+}

@@ -1,16 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><center>
-<h1>Welcome to PranBachao</h1>
-<h2>Log into your Account</h2>
-</center>
-<body bgcolor="#28282B" style="color: aliceblue;"><center>
-  <form action="Log in">
-    <label for="E-mail"><b>E-mail: <input type="text" placeholder="E-mail"></b></label><br><br>
-    <label for="Password"><b>Password: <input type="password" placeholder="Enter Password"></b></label><br><br>
-    <a href="main.html"> <input type="button" value="Login"><br></a>
-    <b>Not a member yet? <a href="Registration Form.html"><input type="button" value="Register"></a></b><br>
-  </form>
-</center>
+<head>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/564e4e9273.js" crossorigin="anonymous"></script></head>
+<body>
+<center>
+  <div class="image">
+    <img class="logo" src="Logo.png"></div>
+  <div class="first">Log Into Your Account</div>
+
+ <div class="input_field"> 
+<div class="mail"><input type="text" class="input" placeholder="Username/Mail" required>
+  <i class="fa-solid fa-user"></i>
+  </div>
+
+    <div class="pass"><input type="password" class="input" placeholder="Password" required>
+      <i class="fa-solid fa-lock"></i>
+    </div></div>
+
+    <div class="login"><a href="main.html"><input type="submit" class="submit" value="Login"></a></div>
+
+    <div class="remember">
+      <input type="checkbox" class="rememberr" id="check">
+      <label for="checkbox">Remember Me</label>
+    </div>
+  
+
+    <div class="forgot">
+      <a href="#" class="forgott" >Forgot Password?</a>
+    </div>
+
+    <div class="new_here">New Here?</div>
+
+    <div class="signup"><a href="Registration Form.html"><input type="submit" class="sign" value="signup"></a>
+    </div>
+
+  </center>
 </body>
 </html>
